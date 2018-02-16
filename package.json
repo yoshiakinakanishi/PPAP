@@ -1,0 +1,35 @@
+{
+  "name": "management-screen-skeleton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fmt": "./node_modules/.bin/prettier-eslint --write ./js/*.js", 
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "isomorphic-unfetch": "^2.0.0",
+    "js-beautify": "^1.7.5",
+    "koa": "^2.4.1",
+    "koa-compress": "^2.0.0",
+    "koa-router": "^7.3.0",
+    "next": "^4.2.3",
+    "next-routes": "^1.2.0",
+    "prettier-eslint": "^8.8.1",
+    "prettier-eslint-cli": "^4.7.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "recompose": "^0.26.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.17.0"
+  }
+}
